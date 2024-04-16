@@ -21,6 +21,6 @@ jobs:
         run: npm install
 
       - name: Create and push tag
-        run: node create-tag.js
+        run: node scripts/create-tag.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
