@@ -4,9 +4,12 @@ on:
    workflow_dispatch:
  # schedule:
  #   - cron: '0 0 * * *' # Run every day at midnight
+ 
 
 jobs:
   create-tag:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Get current date
