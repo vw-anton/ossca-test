@@ -1,5 +1,9 @@
 {
   "name: "ossca-test",
   "description": "The Metaverse virtual reality. The final outcome of all virtual worlds, augmented reality, and the Internet.", 
-  "license": "(MIT OR Apache-2.0)"
+  "license": [
+    "CC-BY-4.0",
+    "MIT",
+    "OFL-1.1"
+  ]
 }
